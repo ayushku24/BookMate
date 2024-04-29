@@ -1,0 +1,65 @@
+.sell-box{
+    display: block;
+    max-width: 34rem; 
+    height: 38rem;
+    box-shadow: 0 0 10px 1px rgb(0 0 0 /0.5);
+     margin: 4rem auto 6rem; 
+     padding-top: 20px;
+     
+     
+}
+
+.form{
+  display:flex;
+  flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+input #name{
+    width: 1000px;
+}
+
+input{
+  display: block;
+    width: 90%;
+    padding: 4px;
+}  
+
+.form textarea{
+  min-height: 2rem;
+    width: 90%;
+    border-radius: 3px;
+    padding: 4px;
+}
+.post{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.post input{
+  color:white;
+  background: orangered;
+  width: 4rem;
+  border:none;
+  box-shadow: 1px 1px 2px 0px black;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control{
+  display: block;
+  width: 90%;
+  padding: 4px;
+  border-radius: 3px;
+  border-color: black;
+}
+
+.img-btn {
+  width: 8rem;
+}
